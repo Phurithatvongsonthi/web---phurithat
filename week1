@@ -1,1 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>หน้าเว็บแรกของฉัน</title>
+        <style>
+            h1 {
+                color: blue;
+                font-size: xx-large;
+                text-align: center;
+            }
 
+            p {
+                font-size: medium;
+                text-align: center;
+            }
+            img{
+                width: 50%;
+                background-color: rebeccapurple;
+                padding: 10%;
+                border-color:blue;
+                border-width: 20px ;
+                border-style: double;
+                border-radius: 50%;
+            }
+            button{
+                font-size: 48%;
+                background-color: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title-text">สวัสดีชาวโลก นี่คือเว็บของฉันนะ!!</h1>
+        <h1 id style="color: brown;" >มาดิครับ</h1>
+        <p>สวีดัด</p>
+        <a href="https://www.youtube.com/watch?v=drgmCih3cJw">เรียนเว็บเพิ่มเติม</a>
+        <img src=https://scontent.fbkk6-2.fna.fbcdn.net/v/t39.30808-6/481315179_950757680575100_1004434715110279580_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFWVdV2yWlkDyzlGNPaytrGfaHfpsWyNBt9od-mxbI0G_rORf7-sq0D9EyAje5XpVmdM1tCVg-BAGAlOh6ksELW&_nc_ohc=3hurp8RjGoAQ7kNvwFBGwoJ&_nc_oc=AdnJQS57E4oWwCm0zKPzA4JtG2Ejd3Va9YxvuIA3p2y3wGAKGKLUcI9wgiuWvpGvyjg&_nc_zt=23&_nc_ht=scontent.fbkk6-2.fna&_nc_gid=dFrskXFmjJ5mEtHO9tSzYQ&oh=00_Afi3z02V_v63ld1z3sw1C_Ff75SsNVx4ZmNPQGQTJ4LCog&oe=692596B2>
+      <button onclick="sayHello()">คลิ๊กที่นี่สิ</button>     
+     <script>
+        let myName ='คุณแม็ค'
+        function sayHello(){
+            alert('มาดิ'+ myName)
+        }
+        
+    </script>    </body> 
+</hml>
